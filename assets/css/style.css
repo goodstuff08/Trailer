@@ -1,0 +1,119 @@
+body{
+    
+    margin: 0;}
+
+.navbar{
+    background-color:rgba(0, 0, 0, 0.629);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+.nav{
+    padding: 5px 0;
+    width: 80%;
+    margin:auto;
+
+}
+
+.menu{
+    display: inline-block;
+    float: right;
+
+}
+.menu li{ 
+    float: right;
+    margin-right: 10px;
+    list-style-type: none;
+    font-size: 7px;
+    color: white;
+    font-family: arial;
+}
+
+#banner-section{
+    background-image: url(/assets/img/slide1.jpg);
+    height: 600px;
+    background-size: contain;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 600px;
+    
+}
+.banner-wrapper{
+    height: 600px;
+}
+
+.uni-logo{
+margin-top: 100px;
+
+}
+.banner-title{
+    color:white;
+    font-size: 35px;
+    text-transform: uppercase;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 25px;
+
+
+}
+
+.search-wrapper{
+    /* border: 1px solid; color:rgb(255, 255, 255);
+    display: inline;  */
+    content: fit;
+    margin-bottom: 50px;
+}
+.search-bar{
+    width: 200px;
+    height: 20px;
+    padding: 0;
+    border: none;
+}
+.search-btn{
+    height: 20px;
+    margin: 0; 
+    padding: 0;
+    margin-left: -5px;
+    border: none;
+    background-color: white;
+}
+.action-button{
+   
+    border:1px solid #ffff;
+    color: white;
+    padding: 5px;
+    text-decoration:none
+    
+}
+.banner-hi{
+
+    background-color: #87d37c;
+    color: #ffff;
+    width: fit-content;
+    height: 30px;
+    position: relative;
+    bottom: 0;
+    left: 43.85%;
+    padding: 10px;
+    margin-top: -50px;
+    border-radius: 8px;`
+    font-size: 25px;
+}     
+.banner-hi:after{
+
+    content: "";
+    position: absolute;
+    bottom: -36px;
+    width: 28px;
+    background-image: url("/assets/img/icon.png");
+    height: 37px;
+    left: 40%;
+
+
+}
+
+
+
