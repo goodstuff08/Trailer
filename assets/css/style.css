@@ -111,9 +111,11 @@ margin-top: 100px;
     background-image: url("/assets/img/icon.png");
     height: 37px;
     left: 40%;
+}
+
+@media (min-width: 768px) {
 
 
 }
-
 
 
